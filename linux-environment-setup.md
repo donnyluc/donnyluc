@@ -22,3 +22,12 @@ sudo update-alternatives --config editor
 ## Download Ultimate Vimrc
 
 Follow the instructions [here](https://github.com/amix/vimrc).
+
+
+## Set Password Feedback
+
+Run the command `sudo visudo` and append `pwfeedback` to the first Defaults settings:
+
+```vim
+Defaults        env_reset,pwfeedback
+```
